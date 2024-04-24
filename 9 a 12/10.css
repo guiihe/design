@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkgray;
+}
+.testemunho {
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 400px;
+    background-color: white;
+}
+.testemunho img {
+    width: 80px;
+    border-radius: 50%;
+}
+.testemunho blockquote {
+    font-style: italic;
+}

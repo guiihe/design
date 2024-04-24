@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: darkgray;
+}
+
+.container {
+    margin: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    flex: 1;
+    margin-right: 10px;
+}
+
+form button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.task-label {
+    cursor: pointer;
+}
+
+.task-edit, .task-delete {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+}
